@@ -1,0 +1,13 @@
+{
+  "name": "new_appointment_planner",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/local-runner": "^9.9.3",
+    "@wdio/mocha-framework": "^9.9.0",
+    "@wdio/spec-reporter": "^9.9.0",
+    "@wdio/visual-service": "^6.3.2"
+  },
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js"
+  }
+}
