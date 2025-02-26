@@ -1,5 +1,3 @@
-import { patientData } from "../data/testData";
-
 class NewPatientWindow {
   
     get patientName() { return $('aria/Patient Name'); }
@@ -15,7 +13,7 @@ class NewPatientWindow {
       await this.mobileNumber.setValue(phone);
       await this.email.setValue(email);
       await this.symptoms.setValue(symptoms);
-      await browser.pause(1000);
+
     }
   
     async save() {
